@@ -15,12 +15,13 @@ Steps to reproduce:
  Create the virtual environment & activate it
  (select the appropriate script for your set up)
  Install dependencies for Qt and Pyside6
+ Also requires pandas.
 
   ```
   python -m virtualenv qt6
   ./qt6/Scripts/activate.ps1
 
-  python -m pip install PySide6 pandas
+  python -m pip install -r requirements.txt
   ```
 
 ### Clone the code & run the script
