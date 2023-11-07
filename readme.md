@@ -20,7 +20,7 @@ Steps to reproduce:
   python -m virtualenv qt6
   ./qt6/Scripts/activate.ps1
 
-  pyton -m pip install PySide6 pandas
+  python -m pip install PySide6 pandas
   ```
 
 ### Clone the code & run the script
